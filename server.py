@@ -28,7 +28,7 @@ def broadcast(msg,prefix):
         sock.send(bytes(prefix+msg,"utf8"))
 
 
-host = '192.168.1.187'
+host = 'localhost'  
 port = 12345
 addr = (host,port)
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
