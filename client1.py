@@ -28,7 +28,7 @@ entry_field.pack()
 send_button = tkinter.Button(top, text="Send", command=send,fg = 'red')
 send_button.pack()
 
-host = '192.168.1.184'
+host = 'localhost'
 port = 12345
 addr = (host,port)
 c = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
